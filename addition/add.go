@@ -2,7 +2,7 @@ package addition
 
 import "fmt"
 
-func addNumbers(numbers ...int) int {
+func AddNumbers(numbers ...int) int {
 	fmt.Printf("Numbers = %s", numbers)
 	sum := 0
 	for _, num := range numbers {
